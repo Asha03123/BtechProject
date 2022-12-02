@@ -3,7 +3,7 @@
 
 ## Compiling and Running 
 
-g++ -o src/renderingPdf src/renderingPdf.cpp `` ` ``pkg-config --cflags --libs cairo poppler-glib`` ` ``
+g++ -o src/renderingPdf src/renderingPdf.cpp `pkg-config --cflags --libs cairo poppler-glib`
 
 ./src/renderingPdf "data/input.pdf" <br> <br>
 
